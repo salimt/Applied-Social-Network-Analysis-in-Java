@@ -10,7 +10,9 @@ This data was originally stored in a Matlab sparse matrix; however, this was
 processed using Python to create a more suitable format for reading with Java.
 The edges in this file are directed; however, each edge also appears in reverse
 order, making the final result undirected.
+
 Source: https://archive.org/details/oxford-2005-facebook-matrix
+
 Citation: Facebook data scrape related to paper "The Social Structure of Facebook 
 Networks", by Amanda L. Traud, Peter J. Mucha, Mason A. Porter.
 
@@ -56,4 +58,4 @@ The exact cover problem is represented in Algorithm X using a matrix A consistin
 
     //facebook_1000 -> 214
     //facebook_2000 -> 223
-    //facebook_ucsd -> 357 (18K Nodes)
+    //facebook_ucsd -> 357 (16K Nodes)
