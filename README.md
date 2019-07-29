@@ -5,6 +5,7 @@ This project investigates the communities within a social network. The first par
 
 #### Small Test Case
 ![example](https://i.imgur.com/ksSn0Mz.png)
+_for visualization JUNG library is needed_
 
 ### Data
 facebook_ucsd.txt
