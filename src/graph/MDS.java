@@ -74,8 +74,8 @@ public class MDS {
         // remove the key/rowNumber from matrix
         for (int rowNum=0; rowNum<matrix.length; rowNum++) {
             for (int colNum: columnsToDelete) {
-                if (matrix[rowNum][colNum] == 1) {                    ////colNum-1
-                    keys.removeFirstOccurrence(rowNum);       ////rowNum+1
+                if (matrix[rowNum][colNum] == 1) {
+                    keys.removeFirstOccurrence(rowNum);
                     break;
                 }
             }
@@ -84,7 +84,7 @@ public class MDS {
        // change the value of a column to the 2 which will be considered removed
         int[][] updatedMatrix = matrix;
         for (int colNum: columnsToDelete) {
-            updatedMatrix = removeCol(updatedMatrix, colNum); ////////////colNum-1
+            updatedMatrix = removeCol(updatedMatrix, colNum);
         }
 
         //if there is 1 left row check if its all elements are 1s if so MDS found, else return null
@@ -113,10 +113,10 @@ public class MDS {
         for (int i=0; i<ary.length; i++) {
             for (int j=0; j<ary[i].length; j++) {
                 if (ary[j][i]==1) {
-                    if (!sortedMap.containsKey(i)) {  ////i+1
-                        sortedMap.put(i, 1);////i+1
+                    if (!sortedMap.containsKey(i)) {
+                        sortedMap.put(i, 1);
                     } else {
-                        sortedMap.put(i, sortedMap.get(i)+1);////i+1
+                        sortedMap.put(i, sortedMap.get(i)+1);
                     }
                 }
             }
