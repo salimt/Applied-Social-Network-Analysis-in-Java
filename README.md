@@ -3,6 +3,9 @@ _My capstone project for the [Object Oriented Java Programming: Data Structures 
 
 This project investigates the communities within a social network. The first part of the project will look at relationships between a user’s friends (specifically, are they all connected as friends too). In the second part, the goal will be to find the minimum dominating set, so we can reach all the people in the network just sharing with a number of friends.
 
+#### Small Test Case
+![example](https://i.imgur.com/ksSn0Mz.png)
+
 ### Data
 facebook_ucsd.txt
 This graph contains Facebook friendships between students at UCSD in 2005. 
